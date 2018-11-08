@@ -1,28 +1,33 @@
 import React from "react"
+import Container from '../components/container';
 
 export default () => (
-  <div style={{ margin: `3rem auto`, maxWidth: 600 }}>
-    <h1>Richard Hamming on Luck</h1>
+  <Container>
+    <h1>@psilospore - Syed Jafri</h1>
     <div>
-      <p>
-        From Richard Hamming’s classic and must-read talk, “
-        <a href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html">
-          You and Your Research
-        </a>
-        ”.
-      </p>
-      <blockquote>
+      <blockquote style={{ padding: `.5rem`}}>
         <p>
-          There is indeed an element of luck, and no, there isn’t. The prepared
-          mind sooner or later finds something important and does it. So yes, it
-          is luck.{" "}
-          <em>
-            The particular thing you do is luck, but that you do something is
-            not.
-          </em>
+          Full stack developer with interests in functional programming and data engineering
         </p>
       </blockquote>
     </div>
-    <p>Posted April 09, 2011</p>
-  </div>
+    <h2>Open Source</h2>
+      <p>
+        I'm i
+        <ul style={{ listStyleType: ``}}>
+          <li href>Scala</li>
+          <li>Scalaz</li>
+          <li>@facebook/jest</li>
+        </ul>
+      </p>
+    <h2>Experience</h2>
+    <h3>Learning Objects</h3>
+      <p>
+        Primarily worked on the analytics team. Discovering sources of risk in 
+      </p>
+    <h3>Incentive Technology Group</h3>
+    <h2>Personal Projects</h2>
+    <h3>Personal Portfolio</h3>
+    
+  </Container>
 )
